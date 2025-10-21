@@ -2,7 +2,7 @@
 
 int main(){
 	unsigned int number;
-       	std::cout << "input number:";
+       	//std::cout << "input number:";
 	std::cin >> number;
 
 	unsigned int summ = 0;
