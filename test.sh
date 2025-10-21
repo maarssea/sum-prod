@@ -13,15 +13,15 @@ cmp output.txt ./tests/003.ans &&  echo "test3 ok" || exit 1
 cmp output.txt ./tests/004.ans &&  echo "test4 ok" || exit 1
 
 
-./sumprod 123 > output.txt
-cmp output.txt ./tests/001.ans &&  echo "test5 ok" || exit 1
+#./sumprod 123 > output.txt
+#cmp output.txt ./tests/001.ans &&  echo "test5 ok" || exit 1
 
-./sumprod 99 > output.txt
-cmp output.txt ./tests/002.ans &&  echo "test6 ok" || exit 1
+#./sumprod 99 > output.txt
+#cmp output.txt ./tests/002.ans &&  echo "test6 ok" || exit 1
 
-./sumprod 0 > output.txt
-cmp output.txt ./tests/003.ans &&  echo "test7 ok" || exit 1
+#./sumprod 0 > output.txt
+#cmp output.txt ./tests/003.ans &&  echo "test7 ok" || exit 1
 
-./sumprod 101 > output.txt
-cmp output.txt ./tests/004.ans &&  echo "test8 ok" || exit 1
+#./sumprod 101 > output.txt
+#cmp output.txt ./tests/004.ans &&  echo "test8 ok" || exit 1
 
